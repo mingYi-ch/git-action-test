@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: git-action-test:/hello-world-docker-action@v1
+      uses: mingYi-ch/git-action-test@v1
       with:
         who-to-greet: 'Ming'
     # Use the output from the `hello` step
